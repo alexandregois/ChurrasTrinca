@@ -8,12 +8,31 @@ using System.Text;
 
 namespace ChuurasTrinca.ViewModels
 {
+
     public class MainPageViewModel : ViewModelBase
     {
+        private INavigationService _navigationService;
+
+        public DelegateCommand CadastrarCommand { get; set; }
+        public DelegateCommand LoginCommand { get; set; }
+
         public MainPageViewModel(INavigationService navigationService)
             : base(navigationService)
         {
-            Title = "Main Page";
+            _navigationService = navigationService;
+            CadastrarCommand = new DelegateCommand(OnCadastrar);
+            LoginCommand = new DelegateCommand(Login);
         }
+
+        private void Login()
+        {
+            
+        }
+
+        private void OnCadastrar()
+        {
+            _navigationService.NavigateAsync("NavigationPage/ViewCadastroUsuario");
+        }
+
     }
 }

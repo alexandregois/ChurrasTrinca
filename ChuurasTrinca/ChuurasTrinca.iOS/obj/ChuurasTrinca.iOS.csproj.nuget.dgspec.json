@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\PROJETOS\\Livres\\ChurrasTRINCA\\Source\\ChuurasTrinca\\ChuurasTrinca\\ChuurasTrinca.iOS\\ChuurasTrinca.iOS.csproj": {}
+    "D:\\PROJETOS\\Livres\\ChurrasTRINCA\\Source\\ChurrasTrinca\\ChuurasTrinca\\ChuurasTrinca.iOS\\ChuurasTrinca.iOS.csproj": {}
   },
   "projects": {
-    "D:\\PROJETOS\\Livres\\ChurrasTRINCA\\Source\\ChuurasTrinca\\ChuurasTrinca\\ChuurasTrinca.iOS\\ChuurasTrinca.iOS.csproj": {
+    "D:\\PROJETOS\\Livres\\ChurrasTRINCA\\Source\\ChurrasTrinca\\ChuurasTrinca\\ChuurasTrinca.iOS\\ChuurasTrinca.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PROJETOS\\Livres\\ChurrasTRINCA\\Source\\ChuurasTrinca\\ChuurasTrinca\\ChuurasTrinca.iOS\\ChuurasTrinca.iOS.csproj",
+        "projectUniqueName": "D:\\PROJETOS\\Livres\\ChurrasTRINCA\\Source\\ChurrasTrinca\\ChuurasTrinca\\ChuurasTrinca.iOS\\ChuurasTrinca.iOS.csproj",
         "projectName": "ChuurasTrinca.iOS",
-        "projectPath": "D:\\PROJETOS\\Livres\\ChurrasTRINCA\\Source\\ChuurasTrinca\\ChuurasTrinca\\ChuurasTrinca.iOS\\ChuurasTrinca.iOS.csproj",
+        "projectPath": "D:\\PROJETOS\\Livres\\ChurrasTRINCA\\Source\\ChurrasTrinca\\ChuurasTrinca\\ChuurasTrinca.iOS\\ChuurasTrinca.iOS.csproj",
         "packagesPath": "C:\\Users\\Alexandre\\.nuget\\packages\\",
-        "outputPath": "D:\\PROJETOS\\Livres\\ChurrasTRINCA\\Source\\ChuurasTrinca\\ChuurasTrinca\\ChuurasTrinca.iOS\\obj\\",
+        "outputPath": "D:\\PROJETOS\\Livres\\ChurrasTRINCA\\Source\\ChurrasTrinca\\ChuurasTrinca\\ChuurasTrinca.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -34,8 +34,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "D:\\PROJETOS\\Livres\\ChurrasTRINCA\\Source\\ChuurasTrinca\\ChuurasTrinca\\ChuurasTrinca\\ChuurasTrinca.csproj": {
-                "projectPath": "D:\\PROJETOS\\Livres\\ChurrasTRINCA\\Source\\ChuurasTrinca\\ChuurasTrinca\\ChuurasTrinca\\ChuurasTrinca.csproj"
+              "D:\\PROJETOS\\Livres\\ChurrasTRINCA\\Source\\ChurrasTrinca\\ChuurasTrinca\\ChuurasTrinca\\ChuurasTrinca.csproj": {
+                "projectPath": "D:\\PROJETOS\\Livres\\ChurrasTRINCA\\Source\\ChurrasTrinca\\ChuurasTrinca\\ChuurasTrinca\\ChuurasTrinca.csproj"
               }
             }
           }
@@ -44,17 +44,25 @@
       "frameworks": {
         "xamarinios10": {
           "dependencies": {
+            "Acr.UserDialogs": {
+              "target": "Package",
+              "version": "[7.2.0.562, )"
+            },
             "Prism.DryIoc.Forms": {
               "target": "Package",
-              "version": "[8.0.0.1909, )"
+              "version": "[8.1.97, )"
+            },
+            "Realm": {
+              "target": "Package",
+              "version": "[10.9.0, )"
             },
             "Xamarin.Essentials.Interfaces": {
               "target": "Package",
-              "version": "[1.5.3.2, )"
+              "version": "[1.7.0, )"
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[4.8.0.1364, )"
+              "version": "[5.0.0.2337, )"
             }
           }
         }
@@ -71,14 +79,14 @@
         }
       }
     },
-    "D:\\PROJETOS\\Livres\\ChurrasTRINCA\\Source\\ChuurasTrinca\\ChuurasTrinca\\ChuurasTrinca\\ChuurasTrinca.csproj": {
+    "D:\\PROJETOS\\Livres\\ChurrasTRINCA\\Source\\ChurrasTrinca\\ChuurasTrinca\\ChuurasTrinca\\ChuurasTrinca.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PROJETOS\\Livres\\ChurrasTRINCA\\Source\\ChuurasTrinca\\ChuurasTrinca\\ChuurasTrinca\\ChuurasTrinca.csproj",
+        "projectUniqueName": "D:\\PROJETOS\\Livres\\ChurrasTRINCA\\Source\\ChurrasTrinca\\ChuurasTrinca\\ChuurasTrinca\\ChuurasTrinca.csproj",
         "projectName": "ChuurasTrinca",
-        "projectPath": "D:\\PROJETOS\\Livres\\ChurrasTRINCA\\Source\\ChuurasTrinca\\ChuurasTrinca\\ChuurasTrinca\\ChuurasTrinca.csproj",
+        "projectPath": "D:\\PROJETOS\\Livres\\ChurrasTRINCA\\Source\\ChurrasTrinca\\ChuurasTrinca\\ChuurasTrinca\\ChuurasTrinca.csproj",
         "packagesPath": "C:\\Users\\Alexandre\\.nuget\\packages\\",
-        "outputPath": "D:\\PROJETOS\\Livres\\ChurrasTRINCA\\Source\\ChuurasTrinca\\ChuurasTrinca\\ChuurasTrinca\\obj\\",
+        "outputPath": "D:\\PROJETOS\\Livres\\ChurrasTRINCA\\Source\\ChurrasTrinca\\ChuurasTrinca\\ChuurasTrinca\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -114,6 +122,10 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "dependencies": {
+            "Acr.UserDialogs": {
+              "target": "Package",
+              "version": "[7.2.0.562, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
@@ -122,15 +134,19 @@
             },
             "Prism.DryIoc.Forms": {
               "target": "Package",
-              "version": "[8.0.0.1909, )"
+              "version": "[8.1.97, )"
+            },
+            "Realm": {
+              "target": "Package",
+              "version": "[10.9.0, )"
             },
             "Xamarin.Essentials.Interfaces": {
               "target": "Package",
-              "version": "[1.5.3.2, )"
+              "version": "[1.7.0, )"
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[4.8.0.1364, )"
+              "version": "[5.0.0.2337, )"
             }
           },
           "imports": [

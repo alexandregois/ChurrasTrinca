@@ -1,11 +1,60 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="http://prismlibrary.com"
              x:Class="ChuurasTrinca.Views.MainPage"
-             Title="{Binding Title}">
+             Title="{Binding Title}"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="#0e5b9b">
 
-    <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
-        <Label Text="Welcome to Xamarin Forms and Prism!" />
+    <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50" />
+                <RowDefinition Height="250" />
+                <RowDefinition Height="65*" />
+                <RowDefinition Height="100" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="20*" />
+                <ColumnDefinition Width="60*" />
+                <ColumnDefinition Width="20*" />
+            </Grid.ColumnDefinitions>
+
+            <Image Source="logo.png" Grid.Row="1" Grid.Column="1" Margin="0,0,0,0"></Image>
+
+
+            <Grid Grid.Row="2" Grid.Column="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="55" />
+                    <RowDefinition Height="15" />
+                    <RowDefinition Height="55" />
+                    <RowDefinition Height="15" />
+                    <RowDefinition Height="55" />
+                    <RowDefinition Height="55" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Button  CornerRadius="9" BorderWidth="3" BackgroundColor="White" Grid.Row="0" Grid.Column="0" BorderColor="#09406e"></Button>
+                <Entry x:Name="txtUser" Grid.Row="0" Grid.Column="0" Placeholder="Usuário" Margin="5"></Entry>
+
+                <Button  CornerRadius="9" BorderWidth="3" BackgroundColor="White" Grid.Row="2" Grid.Column="0" BorderColor="#09406e"></Button>
+                <Entry x:Name="txtPass" Grid.Row="2" Grid.Column="0" Placeholder="Senha" Margin="5"></Entry>
+
+                <Button  CornerRadius="9" BorderWidth="3" BackgroundColor="#09406e" Grid.Row="4" Grid.Column="0" BorderColor="#09406e" Text="Login" TextColor="White" FontSize="Small" Command="{Binding LoginCommand}"></Button>
+                <Button  x:Name="btnCadastrar" CornerRadius="9" BorderWidth="3" BackgroundColor="#0e5b9b" Grid.Row="5" Grid.Column="0" BorderColor="#09406e" Text="Novo usuário" TextColor="White" FontSize="Small" Command="{Binding CadastrarCommand}"></Button>
+
+
+            </Grid>
+
+
+
+
+        </Grid>
+
     </StackLayout>
 
 </ContentPage>

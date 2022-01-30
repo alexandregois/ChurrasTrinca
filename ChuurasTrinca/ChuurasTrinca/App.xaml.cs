@@ -2,6 +2,7 @@ using ChuurasTrinca.ViewModels;
 using ChuurasTrinca.Views;
 using Prism;
 using Prism.Ioc;
+using Realms;
 using Xamarin.Essentials.Implementation;
 using Xamarin.Essentials.Interfaces;
 using Xamarin.Forms;
@@ -13,6 +14,7 @@ namespace ChuurasTrinca
         public App(IPlatformInitializer initializer)
             : base(initializer)
         {
+            
         }
 
         protected override async void OnInitialized()
@@ -28,6 +30,7 @@ namespace ChuurasTrinca
 
             containerRegistry.RegisterForNavigation<NavigationPage>();
             containerRegistry.RegisterForNavigation<MainPage, MainPageViewModel>();
+            containerRegistry.RegisterForNavigation<ViewCadastroUsuario, ViewCadastroUsuarioViewModel>();
         }
     }
 }

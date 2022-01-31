@@ -9,3 +9,9 @@ D:\PROJETOS\Livres\ChurrasTRINCA\Source\ChurrasTrinca\ChuurasTrinca\ChuurasTrinc
 D:\PROJETOS\Livres\ChurrasTRINCA\Source\ChurrasTrinca\ChuurasTrinca\ChuurasTrinca\obj\Debug\netstandard2.0\ChuurasTrinca.csproj.Fody.CopyLocal.cache
 D:\PROJETOS\Livres\ChurrasTRINCA\Source\ChurrasTrinca\ChuurasTrinca\ChuurasTrinca\obj\Debug\netstandard2.0\ChuurasTrinca.dll
 D:\PROJETOS\Livres\ChurrasTRINCA\Source\ChurrasTrinca\ChuurasTrinca\ChuurasTrinca\obj\Debug\netstandard2.0\ChuurasTrinca.pdb
+D:\PROJETOS\Livres\ChurrasTRINCA\Source\ChurrasTrinca\ChuurasTrinca\ChuurasTrinca\bin\Debug\netstandard2.0\ChuurasTrinca.deps.json
+D:\PROJETOS\Livres\ChurrasTRINCA\Source\ChurrasTrinca\ChuurasTrinca\ChuurasTrinca\bin\Debug\netstandard2.0\ChuurasTrinca.dll
+D:\PROJETOS\Livres\ChurrasTRINCA\Source\ChurrasTrinca\ChuurasTrinca\ChuurasTrinca\bin\Debug\netstandard2.0\ChuurasTrinca.pdb
+D:\PROJETOS\Livres\ChurrasTRINCA\Source\ChurrasTrinca\ChuurasTrinca\ChuurasTrinca\obj\Debug\netstandard2.0\ChuurasTrinca.csproj.AssemblyReference.cache
+D:\PROJETOS\Livres\ChurrasTRINCA\Source\ChurrasTrinca\ChuurasTrinca\ChuurasTrinca\obj\Debug\netstandard2.0\XamlC.stamp
+D:\PROJETOS\Livres\ChurrasTRINCA\Source\ChurrasTrinca\ChuurasTrinca\ChuurasTrinca\obj\Debug\netstandard2.0\ViewModels\ViewCadastroChurrasco.xaml.g.cs

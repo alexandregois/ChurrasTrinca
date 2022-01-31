@@ -39,10 +39,10 @@
                 </Grid.ColumnDefinitions>
 
                 <Button  CornerRadius="9" BorderWidth="3" BackgroundColor="White" Grid.Row="0" Grid.Column="0" BorderColor="#09406e"></Button>
-                <Entry x:Name="txtUser" Grid.Row="0" Grid.Column="0" Placeholder="Usuário" Margin="5"></Entry>
+                <Entry x:Name="txtUser" Grid.Row="0" Grid.Column="0" Placeholder="E-mail" Margin="5" Text="{Binding Email}" Keyboard="Email"></Entry>
 
                 <Button  CornerRadius="9" BorderWidth="3" BackgroundColor="White" Grid.Row="2" Grid.Column="0" BorderColor="#09406e"></Button>
-                <Entry x:Name="txtPass" Grid.Row="2" Grid.Column="0" Placeholder="Senha" Margin="5"></Entry>
+                <Entry x:Name="txtPass" Grid.Row="2" Grid.Column="0" Placeholder="Senha" Margin="5" Text="{Binding Senha}" IsPassword="True"></Entry>
 
                 <Button  CornerRadius="9" BorderWidth="3" BackgroundColor="#09406e" Grid.Row="4" Grid.Column="0" BorderColor="#09406e" Text="Login" TextColor="White" FontSize="Small" Command="{Binding LoginCommand}"></Button>
                 <Button  x:Name="btnCadastrar" CornerRadius="9" BorderWidth="3" BackgroundColor="#0e5b9b" Grid.Row="5" Grid.Column="0" BorderColor="#09406e" Text="Novo usuário" TextColor="White" FontSize="Small" Command="{Binding CadastrarCommand}"></Button>

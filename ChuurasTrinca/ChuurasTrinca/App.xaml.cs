@@ -31,6 +31,7 @@ namespace ChuurasTrinca
             containerRegistry.RegisterForNavigation<NavigationPage>();
             containerRegistry.RegisterForNavigation<MainPage, MainPageViewModel>();
             containerRegistry.RegisterForNavigation<ViewCadastroUsuario, ViewCadastroUsuarioViewModel>();
+            containerRegistry.RegisterForNavigation<ViewPrincipal, ViewPrincipalViewModel>();
         }
     }
 }

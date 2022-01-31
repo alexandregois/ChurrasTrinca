@@ -56,21 +56,34 @@ namespace ChuurasTrinca.ViewModels
         {
 
             if (String.IsNullOrEmpty(Nome))
+            { 
                 UserDialogs.Instance.Toast("Favor digitar o nome.", TimeSpan.FromSeconds(10));
+                return;
+            }
 
             if (String.IsNullOrEmpty(Email))
+            { 
                 UserDialogs.Instance.Toast("Favor digitar o e-mail.", TimeSpan.FromSeconds(10));
+                return;
+            }
 
             if (String.IsNullOrEmpty(Senha))
+            { 
                 UserDialogs.Instance.Toast("Favor digitar a senha.", TimeSpan.FromSeconds(10));
+                return;
+            }
 
             if (String.IsNullOrEmpty(ConfirmarSenha))
+            { 
                 UserDialogs.Instance.Toast("Favor confirmar a senha.", TimeSpan.FromSeconds(10));
+                return;
+            }
 
 
             if (Senha != ConfirmarSenha)
             {
                 UserDialogs.Instance.Toast("Senhas digitadas não conferem.", TimeSpan.FromSeconds(10));
+                return;
             }
 
             try
@@ -99,7 +112,7 @@ namespace ChuurasTrinca.ViewModels
                     realmDB.Add(usuario);
                 });
 
-                UserDialogs.Instance.Toast("Senhas digitadas não conferem.", TimeSpan.FromSeconds(10));
+                UserDialogs.Instance.Toast("Usuário salvo com sucesso.", TimeSpan.FromSeconds(10));
 
 
                 LimparCampos();

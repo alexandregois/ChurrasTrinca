@@ -10,7 +10,7 @@ namespace ChuurasTrinca.Models.RealmDto
         [PrimaryKey]
         public int Id { get; set; }
 
-        public DateTime Data { get; set; }
+        public DateTimeOffset DataChurrasco { get; set; }
 
         public decimal ValorPessoa { get; set; }
 
@@ -20,7 +20,7 @@ namespace ChuurasTrinca.Models.RealmDto
 
         public ChurrascoItensDto Itens { get; set; }
 
-        public List<PessoasDto> ListaPessoas { get; set; }
+        public RealmList<PessoasDto> ListaPessoas { get;  }
 
     }
 }

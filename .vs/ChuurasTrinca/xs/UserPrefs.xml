@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{504E0DE6-F23D-4EEA-BB66-740A846104CD}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ChuurasTrinca/ChuurasTrinca/Views/ViewPrincipal.xaml">
+    <Files>
+      <File FileName="ChuurasTrinca/ChuurasTrinca/Views/ViewPrincipal.xaml" Line="42" Column="20" />
+      <File FileName="ChuurasTrinca/ChuurasTrinca/Views/MainPage.xaml" Line="10" Column="1" />
+      <File FileName="ChuurasTrinca/ChuurasTrinca/ViewModels/MainPageViewModel.cs" Line="83" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ChuurasTrinca" expanded="True">
+            <Node name="ChuurasTrinca" expanded="True">
+              <Node name="ViewModels" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="ViewPrincipal.xaml" selected="True" />
+              </Node>
+            </Node>
+            <Node name="ChuurasTrinca.Android" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.ChuurasTrinca.Android PreferredExecutionTarget="Android.Pixel_3a_API_31_-_Video" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/alexandregois/Documents/Projetos/Livres/ChurrasTrinca/ChuurasTrinca/ChuurasTrinca/ViewModels/MainPageViewModel.cs" relfile="ChuurasTrinca/ChuurasTrinca/ViewModels/MainPageViewModel.cs" line="83" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

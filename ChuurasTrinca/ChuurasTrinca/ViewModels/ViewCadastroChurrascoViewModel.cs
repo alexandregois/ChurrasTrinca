@@ -14,7 +14,7 @@ namespace ChuurasTrinca.ViewModels
         public ViewCadastroChurrascoViewModel(INavigationService navigationService)
             : base(navigationService)
         {
-
+            _navigationService = navigationService;
         }
     }
 }

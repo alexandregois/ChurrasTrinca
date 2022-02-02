@@ -17,6 +17,7 @@ namespace ChuurasTrinca.ViewModels
         public ViewPrincipalViewModel(INavigationService navigationService)
             : base(navigationService)
         {
+            _navigationService = navigationService;
             CadastrarChurrascoCommand = new DelegateCommand(CadastrarChurrasco);
             ListarChurrascosCommand = new DelegateCommand(ListarChurrascos);
         }

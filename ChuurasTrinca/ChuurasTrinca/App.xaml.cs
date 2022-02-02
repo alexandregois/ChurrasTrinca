@@ -21,7 +21,9 @@ namespace ChuurasTrinca
         {
             InitializeComponent();
 
-            await NavigationService.NavigateAsync("NavigationPage/MainPage");
+            //await NavigationService.NavigateAsync("NavigationPage/MainPage");
+
+            await NavigationService.NavigateAsync("NavigationPage/ViewPrincipal");
         }
 
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
@@ -32,6 +34,8 @@ namespace ChuurasTrinca
             containerRegistry.RegisterForNavigation<MainPage, MainPageViewModel>();
             containerRegistry.RegisterForNavigation<ViewCadastroUsuario, ViewCadastroUsuarioViewModel>();
             containerRegistry.RegisterForNavigation<ViewPrincipal, ViewPrincipalViewModel>();
+            containerRegistry.RegisterForNavigation<ViewCadastroChurrasco, ViewCadastroChurrascoViewModel>();
+            containerRegistry.RegisterForNavigation<ViewListarChurrascos, ViewListarChurrascosViewModel>();
         }
     }
 }

@@ -23,7 +23,7 @@ namespace ChuurasTrinca
 
             //await NavigationService.NavigateAsync("NavigationPage/MainPage");
 
-            await NavigationService.NavigateAsync("NavigationPage/ViewPrincipal");
+            await NavigationService.NavigateAsync("NavigationPage/ViewCadastroChurrasco");
         }
 
         protected override void RegisterTypes(IContainerRegistry containerRegistry)

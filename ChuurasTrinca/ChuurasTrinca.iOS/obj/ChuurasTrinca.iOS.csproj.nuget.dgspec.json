@@ -1,41 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "D:\\PROJETOS\\Livres\\ChurrasTRINCA\\Source\\ChurrasTrinca\\ChuurasTrinca\\ChuurasTrinca.iOS\\ChuurasTrinca.iOS.csproj": {}
+    "/Users/alexandregois/Documents/Projetos/Livres/ChurrasTrinca/ChuurasTrinca/ChuurasTrinca.iOS/ChuurasTrinca.iOS.csproj": {}
   },
   "projects": {
-    "D:\\PROJETOS\\Livres\\ChurrasTRINCA\\Source\\ChurrasTrinca\\ChuurasTrinca\\ChuurasTrinca.iOS\\ChuurasTrinca.iOS.csproj": {
+    "/Users/alexandregois/Documents/Projetos/Livres/ChurrasTrinca/ChuurasTrinca/ChuurasTrinca.iOS/ChuurasTrinca.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PROJETOS\\Livres\\ChurrasTRINCA\\Source\\ChurrasTrinca\\ChuurasTrinca\\ChuurasTrinca.iOS\\ChuurasTrinca.iOS.csproj",
+        "projectUniqueName": "/Users/alexandregois/Documents/Projetos/Livres/ChurrasTrinca/ChuurasTrinca/ChuurasTrinca.iOS/ChuurasTrinca.iOS.csproj",
         "projectName": "ChuurasTrinca.iOS",
-        "projectPath": "D:\\PROJETOS\\Livres\\ChurrasTRINCA\\Source\\ChurrasTrinca\\ChuurasTrinca\\ChuurasTrinca.iOS\\ChuurasTrinca.iOS.csproj",
-        "packagesPath": "C:\\Users\\Alexandre\\.nuget\\packages\\",
-        "outputPath": "D:\\PROJETOS\\Livres\\ChurrasTRINCA\\Source\\ChurrasTrinca\\ChuurasTrinca\\ChuurasTrinca.iOS\\obj\\",
+        "projectPath": "/Users/alexandregois/Documents/Projetos/Livres/ChurrasTrinca/ChuurasTrinca/ChuurasTrinca.iOS/ChuurasTrinca.iOS.csproj",
+        "packagesPath": "/Users/alexandregois/.nuget/packages/",
+        "outputPath": "/Users/alexandregois/Documents/Projetos/Livres/ChurrasTrinca/ChuurasTrinca/ChuurasTrinca.iOS/obj/",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Alexandre\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/Users/alexandregois/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "xamarinios10"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "D:\\PROJETOS\\Livres\\ChurrasTRINCA\\Source\\ChurrasTrinca\\ChuurasTrinca\\ChuurasTrinca\\ChuurasTrinca.csproj": {
-                "projectPath": "D:\\PROJETOS\\Livres\\ChurrasTRINCA\\Source\\ChurrasTrinca\\ChuurasTrinca\\ChuurasTrinca\\ChuurasTrinca.csproj"
+              "/Users/alexandregois/Documents/Projetos/Livres/ChurrasTrinca/ChuurasTrinca/ChuurasTrinca/ChuurasTrinca.csproj": {
+                "projectPath": "/Users/alexandregois/Documents/Projetos/Livres/ChurrasTrinca/ChuurasTrinca/ChuurasTrinca/ChuurasTrinca.csproj"
               }
             }
           }
@@ -79,32 +71,22 @@
         }
       }
     },
-    "D:\\PROJETOS\\Livres\\ChurrasTRINCA\\Source\\ChurrasTrinca\\ChuurasTrinca\\ChuurasTrinca\\ChuurasTrinca.csproj": {
+    "/Users/alexandregois/Documents/Projetos/Livres/ChurrasTrinca/ChuurasTrinca/ChuurasTrinca/ChuurasTrinca.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PROJETOS\\Livres\\ChurrasTRINCA\\Source\\ChurrasTrinca\\ChuurasTrinca\\ChuurasTrinca\\ChuurasTrinca.csproj",
+        "projectUniqueName": "/Users/alexandregois/Documents/Projetos/Livres/ChurrasTrinca/ChuurasTrinca/ChuurasTrinca/ChuurasTrinca.csproj",
         "projectName": "ChuurasTrinca",
-        "projectPath": "D:\\PROJETOS\\Livres\\ChurrasTRINCA\\Source\\ChurrasTrinca\\ChuurasTrinca\\ChuurasTrinca\\ChuurasTrinca.csproj",
-        "packagesPath": "C:\\Users\\Alexandre\\.nuget\\packages\\",
-        "outputPath": "D:\\PROJETOS\\Livres\\ChurrasTRINCA\\Source\\ChurrasTrinca\\ChuurasTrinca\\ChuurasTrinca\\obj\\",
+        "projectPath": "/Users/alexandregois/Documents/Projetos/Livres/ChurrasTrinca/ChuurasTrinca/ChuurasTrinca/ChuurasTrinca.csproj",
+        "packagesPath": "/Users/alexandregois/.nuget/packages/",
+        "outputPath": "/Users/alexandregois/Documents/Projetos/Livres/ChurrasTrinca/ChuurasTrinca/ChuurasTrinca/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Alexandre\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/Users/alexandregois/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -160,7 +142,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/6.0.101/RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -190,6 +190,14 @@
     <BundleResource Include="Resources\Default.png" />
     <BundleResource Include="Resources\Default@2x.png" />
     <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
+    <BundleResource Include="Resources\logo%403x.png">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+    </BundleResource>
+    <BundleResource Include="Resources\logo%402x.png">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+    </BundleResource>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -210,7 +218,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ChuurasTrinca\ChuurasTrinca.csproj">
-      <Project>{A682884C-CB44-4A89-B752-27BB634E0ABE}</Project>
+      <Project>{37259EC9-3F84-4E81-A4D7-AF2E4B84D859}</Project>
       <Name>ChuurasTrinca</Name>
     </ProjectReference>
   </ItemGroup>

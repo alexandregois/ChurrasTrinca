@@ -13,7 +13,7 @@
 namespace ChuurasTrinca.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\ViewListarChurrascos.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views/ViewListarChurrascos.xaml")]
     public partial class ViewListarChurrascos : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]

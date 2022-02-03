@@ -1,0 +1,9 @@
+
+*.cache
+*.dll
+*.pdb
+*.apk
+*.o
+*.props
+*.v2
+*.s

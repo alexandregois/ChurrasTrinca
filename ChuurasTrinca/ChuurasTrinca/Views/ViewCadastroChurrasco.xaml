@@ -4,11 +4,10 @@
              xmlns:prism="http://prismlibrary.com"
              x:Class="ChuurasTrinca.Views.ViewCadastroChurrasco"
              NavigationPage.HasNavigationBar="False"
-             BackgroundColor="#0e5b9b"
-             >
+             BackgroundColor="#0e5b9b">
 
     <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
-          <ScrollView HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+        <ScrollView HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
             <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="25" />
@@ -26,19 +25,13 @@
 
                 <Grid Grid.Row="2" Grid.Column="1" >
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="15" />
-                        <RowDefinition Height="55" />
                         <RowDefinition Height="55" />
                     </Grid.RowDefinitions>
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="*" />
                     </Grid.ColumnDefinitions>
 
-                    <Label Text="Cadastro de churrasco" Margin="0,0,0,0" HorizontalTextAlignment="Center" Grid.Row="1" Grid.Column="0"
-                           TextColor="White" FontAttributes="Bold" FontSize="Large"></Label>
-      
-
-                    <Entry x:Name="txtNome" Grid.Row="2" Grid.Column="0" Placeholder="Nome" Margin="5"></Entry>
+                    <Entry x:Name="txtNome" Grid.Row="0" Grid.Column="0" Placeholder="Nome" Margin="5"></Entry>
                     <!--<Button  CornerRadius="9" BorderWidth="3" Grid.Row="0" Grid.Column="0" BorderColor="#09406e"></Button>-->
                     
 

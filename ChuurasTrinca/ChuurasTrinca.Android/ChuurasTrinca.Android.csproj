@@ -114,7 +114,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ChuurasTrinca\ChuurasTrinca.csproj">
-      <Project>{37259EC9-3F84-4E81-A4D7-AF2E4B84D859}</Project>
+      <Project>{A682884C-CB44-4A89-B752-27BB634E0ABE}</Project>
       <Name>ChuurasTrinca</Name>
     </ProjectReference>
   </ItemGroup>

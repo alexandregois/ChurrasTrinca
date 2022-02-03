@@ -12,7 +12,6 @@
             <Grid.RowDefinitions>
                 <RowDefinition Height="25" />
                 <RowDefinition Height="175" />
-                <RowDefinition Height="35" />
                 <RowDefinition Height="250" />
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
@@ -22,11 +21,9 @@
             </Grid.ColumnDefinitions>
 
             <Image Source="logo.png" Grid.Row="1" Grid.Column="1" Margin="0,0,0,0"></Image>
-            <Label Text="Cadastro de churrasco" Margin="0,0,0,0" HorizontalTextAlignment="Center" Grid.Row="2" Grid.Column="0"
-                           TextColor="White" FontAttributes="Bold" FontSize="Large"></Label>
           
 
-            <Grid Grid.Row="3" Grid.Column="1" >
+            <Grid Grid.Row="2" Grid.Column="1" >
                 <Grid.RowDefinitions>
                     <RowDefinition Height="55" />
                     <RowDefinition Height="1" />

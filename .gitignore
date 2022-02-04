@@ -7,3 +7,20 @@
 *.props
 *.v2
 *.s
+*.targets
+ChuurasTrinca/ChuurasTrinca.Android/ChuurasTrinca.Android 3.csproj
+ChuurasTrinca/ChuurasTrinca.Android/obj/ChuurasTrinca.Android.csproj.nuget.dgspec 2.json
+ChuurasTrinca/ChuurasTrinca.Android/obj/project.assets 2.json
+ChuurasTrinca/ChuurasTrinca.Android/Properties/AndroidManifest 2.xml
+ChuurasTrinca/ChuurasTrinca.Android/Properties/AndroidManifest 3.xml
+ChuurasTrinca/ChuurasTrinca.iOS/obj/ChuurasTrinca.iOS.csproj.nuget.dgspec 2.json
+ChuurasTrinca/ChuurasTrinca.iOS/obj/project.assets 2.json
+ChuurasTrinca/ChuurasTrinca/obj/ChuurasTrinca.csproj.nuget.dgspec 2.json
+ChuurasTrinca/ChuurasTrinca/obj/Debug/netstandard2.0/ChuurasTrinca.csproj.FileListAbsolute 2.txt
+ChuurasTrinca/ChuurasTrinca/obj/Debug/netstandard2.0/ChuurasTrinca.GeneratedMSBuildEditorConfig 2.editorconfig
+ChuurasTrinca/ChuurasTrinca/obj/Debug/netstandard2.0/Views/MainPage.xaml.g 2.cs
+ChuurasTrinca/ChuurasTrinca/obj/Debug/netstandard2.0/Views/ViewCadastroChurrasco.xaml.g 2.cs
+ChuurasTrinca/ChuurasTrinca/obj/Debug/netstandard2.0/Views/ViewCadastroUsuario.xaml.g 2.cs
+ChuurasTrinca/ChuurasTrinca/obj/Debug/netstandard2.0/Views/ViewListarChurrascos.xaml.g 2.cs
+ChuurasTrinca/ChuurasTrinca/obj/Debug/netstandard2.0/Views/ViewPrincipal.xaml.g 2.cs
+ChuurasTrinca/ChuurasTrinca/obj/project.assets 2.json

@@ -53,3 +53,5 @@ ChuurasTrinca/ChuurasTrinca.Android/obj/Debug/100/ChuurasTrinca.Android.pdb
 *.cache
 *.dll
 *.pdb
+*.cache
+.vs/ChuurasTrinca/v16/.suo

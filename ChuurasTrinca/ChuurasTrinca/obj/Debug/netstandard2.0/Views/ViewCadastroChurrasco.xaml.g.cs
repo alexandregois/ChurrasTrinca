@@ -20,9 +20,13 @@ namespace ChuurasTrinca.Views {
         private global::Xamarin.Forms.Entry txtNome;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::Xamarin.Forms.MaskedEntry.MaskedEntry txtValorPessoa;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(ViewCadastroChurrasco));
             txtNome = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Entry>(this, "txtNome");
+            txtValorPessoa = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.MaskedEntry.MaskedEntry>(this, "txtValorPessoa");
         }
     }
 }

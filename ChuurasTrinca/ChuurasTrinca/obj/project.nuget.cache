@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "npetJ1JQuouFblZEgWBvKKWn54HzIGCkdXYWrmuQgRbpjkL2q5f+mipIkQZaZDmQY7PKcEXJV2pVxZly7K+eUQ==",
+  "dgSpecHash": "8FCKjeMak3K9zpet5HLyb0HyFyFwof8RNR0KUsmous3Ddr0l2fTFLOfN3hzx9ZshcP26vJr2foJsZyRGAmWcGQ==",
   "success": true,
   "projectFilePath": "D:\\PROJETOS\\Livres\\ChurrasTRINCA\\Source\\ChurrasTrinca\\ChuurasTrinca\\ChuurasTrinca\\ChuurasTrinca.csproj",
   "expectedPackageFiles": [
@@ -45,7 +45,8 @@
     "C:\\Users\\Alexandre\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",
     "C:\\Users\\Alexandre\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
     "C:\\Users\\Alexandre\\.nuget\\packages\\xamarin.essentials.interfaces\\1.7.0\\xamarin.essentials.interfaces.1.7.0.nupkg.sha512",
-    "C:\\Users\\Alexandre\\.nuget\\packages\\xamarin.forms\\5.0.0.2337\\xamarin.forms.5.0.0.2337.nupkg.sha512"
+    "C:\\Users\\Alexandre\\.nuget\\packages\\xamarin.forms\\5.0.0.2337\\xamarin.forms.5.0.0.2337.nupkg.sha512",
+    "C:\\Users\\Alexandre\\.nuget\\packages\\xamarin.forms.maskedentry\\1.1.0\\xamarin.forms.maskedentry.1.1.0.nupkg.sha512"
   ],
   "logs": []
 }

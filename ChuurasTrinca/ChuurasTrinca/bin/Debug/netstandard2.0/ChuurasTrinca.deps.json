@@ -14,7 +14,8 @@
           "Prism.DryIoc.Forms": "8.1.97",
           "Realm": "10.9.0",
           "Xamarin.Essentials.Interfaces": "1.7.0",
-          "Xamarin.Forms": "5.0.0.2337"
+          "Xamarin.Forms": "5.0.0.2337",
+          "Xamarin.Forms.MaskedEntry": "1.1.0"
         },
         "runtime": {
           "ChuurasTrinca.dll": {}
@@ -451,6 +452,17 @@
             "fileVersion": "5.0.0.884"
           }
         }
+      },
+      "Xamarin.Forms.MaskedEntry/1.1.0": {
+        "dependencies": {
+          "Xamarin.Forms": "5.0.0.2337"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Forms.MaskedEntry.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.0.0"
+          }
+        }
       }
     }
   },
@@ -753,6 +765,13 @@
       "sha512": "sha512-2AYl2V1YHjEDEmA5d+aP382ielCKr8d/jo3zCgPSvLE/4Pw/em7pHBGmN3yZ/WzxIMV16f7wBfoFCHesMud0AA==",
       "path": "xamarin.forms/5.0.0.2337",
       "hashPath": "xamarin.forms.5.0.0.2337.nupkg.sha512"
+    },
+    "Xamarin.Forms.MaskedEntry/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aIhXOJPyLckN4/iDOOxRK09lrKKd8mlBsis+tN1V5iQe3/Y4DMl3hnc4VX5NJcW6q3NAbULFPnXjGP6Xt/bWAg==",
+      "path": "xamarin.forms.maskedentry/1.1.0",
+      "hashPath": "xamarin.forms.maskedentry.1.1.0.nupkg.sha512"
     }
   }
 }

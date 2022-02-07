@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "/WRUqlFOS+FehRv0qZOdN9EkFq44jO0wR2IHToYdpXlXrd4paWZVTYJ88M527mv7s6U8SY01THiGqJutDYUMIg==",
+  "dgSpecHash": "7OjDoJmRPdNNM4eY9ftaUxhI56sINPwq1pKkG8MP8BP046mmpsi8qKOoBAuEez3Vv0pzVXif83FpzmbiJ/H+hw==",
   "success": true,
   "projectFilePath": "D:\\PROJETOS\\Livres\\ChurrasTRINCA\\Source\\ChurrasTrinca\\ChuurasTrinca\\ChuurasTrinca.Android\\ChuurasTrinca.Android.csproj",
   "expectedPackageFiles": [
@@ -77,6 +77,7 @@
     "C:\\Users\\Alexandre\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
     "C:\\Users\\Alexandre\\.nuget\\packages\\xamarin.essentials.interfaces\\1.7.0\\xamarin.essentials.interfaces.1.7.0.nupkg.sha512",
     "C:\\Users\\Alexandre\\.nuget\\packages\\xamarin.forms\\5.0.0.2337\\xamarin.forms.5.0.0.2337.nupkg.sha512",
+    "C:\\Users\\Alexandre\\.nuget\\packages\\xamarin.forms.maskedentry\\1.1.0\\xamarin.forms.maskedentry.1.1.0.nupkg.sha512",
     "C:\\Users\\Alexandre\\.nuget\\packages\\xamarin.google.android.material\\1.4.0.4\\xamarin.google.android.material.1.4.0.4.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.google.guava.listenablefuture\\1.0.0.2\\xamarin.google.guava.listenablefuture.1.0.0.2.nupkg.sha512"
   ],

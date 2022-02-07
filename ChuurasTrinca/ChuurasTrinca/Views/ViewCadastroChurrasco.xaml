@@ -2,6 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:prism="http://prismlibrary.com"
+             xmlns:control="clr-namespace:Xamarin.Forms.MaskedEntry;assembly=Xamarin.Forms.MaskedEntry"
              x:Class="ChuurasTrinca.Views.ViewCadastroChurrasco"
              NavigationPage.HasNavigationBar="False"
              BackgroundColor="#0e5b9b">
@@ -22,7 +23,7 @@
                 </Grid.ColumnDefinitions>
 
                 <Image Source="logo.png" Grid.Row="1" Grid.Column="1" Margin="0,0,0,0"></Image>
-                <Label Text="Cadastro de usuários" TextColor="White" FontAttributes="Bold" FontSize="Large" Grid.Row="2" Grid.Column="1"
+                <Label Text="Cadastro de churrascos" TextColor="White" FontAttributes="Bold" FontSize="Large" Grid.Row="2" Grid.Column="1"
                       HorizontalTextAlignment="Center"></Label>
 
 
@@ -44,20 +45,24 @@
                     </Grid.ColumnDefinitions>
 
 
-
                     <Button  CornerRadius="9" BorderWidth="3" BackgroundColor="White" Grid.Row="0" Grid.Column="0" BorderColor="#09406e"></Button>
                     <Entry x:Name="txtNome" Grid.Row="0" Grid.Column="0" Placeholder="Nome" Margin="5" Text="{Binding Descricao}"></Entry>
 
                     <Button  CornerRadius="9" BorderWidth="3" BackgroundColor="White" Grid.Row="2" Grid.Column="0" BorderColor="#09406e"></Button>
-                    <DatePicker Format="D" Date="{Binding Data}" Grid.Row="2" Grid.Column="0"></DatePicker>
+                    <DatePicker Format="dd/MM/yyyy" Date="{Binding Data}" Grid.Row="2" Grid.Column="0" Margin="5"></DatePicker>
+
+                    <Button  CornerRadius="9" BorderWidth="3" BackgroundColor="White" Grid.Row="4" Grid.Column="0" BorderColor="#09406e"></Button>
+                    
+                    
+                    <!--<Entry x:Name="txtNome" Grid.Row="4" Grid.Column="0" Placeholder="Valor por pessoa" Margin="5" Text="{Binding ValorPessoa}" Keyboard="Numeric"></Entry>-->
+
+                    <control:MaskedEntry x:Name="txtValorPessoa" Grid.Row="4" Grid.Column="0" Placeholder="Valor Pessoa (000,00)" Mask="XXX,XX" Keyboard="Numeric" Margin="5"></control:MaskedEntry>
 
                     <!--<Button  CornerRadius="9" BorderWidth="3" BackgroundColor="White" Grid.Row="4" Grid.Column="0" BorderColor="#09406e"></Button>
                     <Entry x:Name="txtSenha" Grid.Row="4" Grid.Column="0" Placeholder="Senha" Margin="5" Keyboard="Numeric" IsPassword="True" Text="{Binding Senha}"></Entry>
 
                     <Button  CornerRadius="9" BorderWidth="3" BackgroundColor="White" Grid.Row="6" Grid.Column="0" BorderColor="#09406e"></Button>
                     <Entry x:Name="txtConfirmarSenha" Grid.Row="6" Grid.Column="0" Placeholder="Confirmar senha" Margin="5" Keyboard="Numeric" IsPassword="True" Text="{Binding ConfirmarSenha}" ></Entry>-->
-
-
 
                     <Button  CornerRadius="9" BorderWidth="3" BackgroundColor="Transparent" Grid.Row="8" Grid.Column="0" BorderColor="#09406e" Text="Salvar" TextColor="White" FontSize="Small" Margin="0,3,0,0" Command="{Binding SalvarCommand}"></Button>
 

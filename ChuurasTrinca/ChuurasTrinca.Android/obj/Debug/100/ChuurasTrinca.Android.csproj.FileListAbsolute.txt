@@ -687,3 +687,4 @@ D:\PROJETOS\Livres\ChurrasTRINCA\Source\ChurrasTrinca\ChuurasTrinca\ChuurasTrinc
 D:\PROJETOS\Livres\ChurrasTRINCA\Source\ChurrasTrinca\ChuurasTrinca\ChuurasTrinca.Android\obj\Debug\100\stamp\_GenerateJavaStubs.stamp
 D:\PROJETOS\Livres\ChurrasTRINCA\Source\ChurrasTrinca\ChuurasTrinca\ChuurasTrinca.Android\obj\Debug\100\stamp\_GeneratePackageManagerJava.stamp
 D:\PROJETOS\Livres\ChurrasTRINCA\Source\ChurrasTrinca\ChuurasTrinca\ChuurasTrinca.Android\obj\Debug\100\stamp\_ResolveLibraryProjectImports.stamp
+D:\PROJETOS\Livres\ChurrasTRINCA\Source\ChurrasTrinca\ChuurasTrinca\ChuurasTrinca.Android\obj\Debug\100\android\assets\Xamarin.Forms.MaskedEntry.dll

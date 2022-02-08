@@ -23,8 +23,8 @@
                 </Grid.ColumnDefinitions>
 
                 <Image Source="logo.png" Grid.Row="1" Grid.Column="1" Margin="0,0,0,0"></Image>
-                <Label Text="Cadastro de churrascos" TextColor="White" FontAttributes="Bold" FontSize="Large" Grid.Row="2" Grid.Column="1"
-                      HorizontalTextAlignment="Center"></Label>
+                <Label Text="Churrasco" TextColor="White" FontAttributes="Bold" FontSize="Large" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="1" HorizontalTextAlignment="Center"
+                 ></Label>
 
 
                 <Grid Grid.Row="3" Grid.Column="1" >
@@ -52,9 +52,6 @@
                     <DatePicker Format="dd/MM/yyyy" Date="{Binding Data}" Grid.Row="2" Grid.Column="0" Margin="5"></DatePicker>
 
                     <Button  CornerRadius="9" BorderWidth="3" BackgroundColor="White" Grid.Row="4" Grid.Column="0" BorderColor="#09406e"></Button>
-                    
-                    
-                    <!--<Entry x:Name="txtNome" Grid.Row="4" Grid.Column="0" Placeholder="Valor por pessoa" Margin="5" Text="{Binding ValorPessoa}" Keyboard="Numeric"></Entry>-->
 
                     <control:MaskedEntry x:Name="txtValorPessoa" Grid.Row="4" Grid.Column="0" Placeholder="Valor Pessoa (000,00)" Mask="XXX,XX" Keyboard="Numeric" Margin="5"></control:MaskedEntry>
 

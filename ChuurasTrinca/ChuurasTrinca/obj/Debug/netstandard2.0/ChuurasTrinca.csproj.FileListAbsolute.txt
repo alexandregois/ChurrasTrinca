@@ -19,6 +19,7 @@ D:/PROJETOS/Livres/ChurrasTRINCA/Source/ChurrasTrinca/ChuurasTrinca/ChuurasTrinc
 /Users/alexandregois/Documents/Projetos/Livres/ChurrasTrinca/ChuurasTrinca/ChuurasTrinca/bin/Debug/netstandard2.0/ChuurasTrinca.deps.json
 /Users/alexandregois/Documents/Projetos/Livres/ChurrasTrinca/ChuurasTrinca/ChuurasTrinca/bin/Debug/netstandard2.0/ChuurasTrinca.dll
 /Users/alexandregois/Documents/Projetos/Livres/ChurrasTrinca/ChuurasTrinca/ChuurasTrinca/bin/Debug/netstandard2.0/ChuurasTrinca.pdb
+/Users/alexandregois/Documents/Projetos/Livres/ChurrasTrinca/ChuurasTrinca/ChuurasTrinca/obj/Debug/netstandard2.0/ChuurasTrinca.csproj.AssemblyReference.cache
 /Users/alexandregois/Documents/Projetos/Livres/ChurrasTrinca/ChuurasTrinca/ChuurasTrinca/obj/Debug/netstandard2.0/ChuurasTrinca.GeneratedMSBuildEditorConfig.editorconfig
 /Users/alexandregois/Documents/Projetos/Livres/ChurrasTrinca/ChuurasTrinca/ChuurasTrinca/obj/Debug/netstandard2.0/App.xaml.g.cs
 /Users/alexandregois/Documents/Projetos/Livres/ChurrasTrinca/ChuurasTrinca/ChuurasTrinca/obj/Debug/netstandard2.0/Views/MainPage.xaml.g.cs
@@ -33,4 +34,3 @@ D:/PROJETOS/Livres/ChurrasTRINCA/Source/ChurrasTrinca/ChuurasTrinca/ChuurasTrinc
 /Users/alexandregois/Documents/Projetos/Livres/ChurrasTrinca/ChuurasTrinca/ChuurasTrinca/obj/Debug/netstandard2.0/XamlC.stamp
 /Users/alexandregois/Documents/Projetos/Livres/ChurrasTrinca/ChuurasTrinca/ChuurasTrinca/obj/Debug/netstandard2.0/ChuurasTrinca.dll
 /Users/alexandregois/Documents/Projetos/Livres/ChurrasTrinca/ChuurasTrinca/ChuurasTrinca/obj/Debug/netstandard2.0/ChuurasTrinca.pdb
-/Users/alexandregois/Documents/Projetos/Livres/ChurrasTrinca/ChuurasTrinca/ChuurasTrinca/obj/Debug/netstandard2.0/ChuurasTrinca.csproj.AssemblyReference.cache

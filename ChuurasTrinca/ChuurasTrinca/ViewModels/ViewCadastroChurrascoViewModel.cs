@@ -71,7 +71,7 @@ namespace ChuurasTrinca.ViewModels
                 return;
             }
 
-            if (String.IsNullOrEmpty(_valorPessoaString))
+            if (String.IsNullOrEmpty(ValorPessoaString))
             {
                 UserDialogs.Instance.Toast("Favor informar um valor por pessoa.", TimeSpan.FromSeconds(10));
                 return;
@@ -108,7 +108,7 @@ namespace ChuurasTrinca.ViewModels
                     realmDB.Add(item);
                 });
 
-                UserDialogs.Instance.Toast("Usuário salvo com sucesso.", TimeSpan.FromSeconds(10));
+                UserDialogs.Instance.Toast("Churrasco cadastrado com sucesso.", TimeSpan.FromSeconds(10));
 
 
                 LimparCampos();

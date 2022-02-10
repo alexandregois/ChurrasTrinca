@@ -13,7 +13,7 @@
 namespace ChuurasTrinca.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views/ViewCadastroUsuario.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\ViewCadastroUsuario.xaml")]
     public partial class ViewCadastroUsuario : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]

@@ -13,7 +13,7 @@
 namespace ChuurasTrinca.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views/ViewPrincipal.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\ViewPrincipal.xaml")]
     public partial class ViewPrincipal : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]

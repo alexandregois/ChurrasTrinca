@@ -13,12 +13,16 @@
 namespace ChuurasTrinca.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views/ViewListarChurrascos.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\ViewListarChurrascos.xaml")]
     public partial class ViewListarChurrascos : global::Xamarin.Forms.ContentPage {
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::Xamarin.Forms.ListView lstChurrascos;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(ViewListarChurrascos));
+            lstChurrascos = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.ListView>(this, "lstChurrascos");
         }
     }
 }

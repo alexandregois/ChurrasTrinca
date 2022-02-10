@@ -1,6 +1,8 @@
-﻿using Prism.Commands;
+﻿using ChuurasTrinca.Models.RealmDto;
+using Prism.Commands;
 using Prism.Mvvm;
 using Prism.Navigation;
+using Realms;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,6 +12,14 @@ namespace ChuurasTrinca.ViewModels
     public class ViewListarChurrascosViewModel : ViewModelBase
     {
         private INavigationService _navigationService;
+
+
+        private List<ChurrascoDto> _listaChurrascos;
+        public List<ChurrascoDto> ListaChurrascos
+        {
+            get => _listaChurrascos;
+            set => SetProperty(ref _listaChurrascos, value);
+        }
 
         private string _descricao;
         public string Descricao
@@ -43,6 +53,19 @@ namespace ChuurasTrinca.ViewModels
             : base(navigationService)
         {
             _navigationService = navigationService;
+
+            ListaChurrascos = ListarChurrascos();
+
+        }
+
+        private List<ChurrascoDto> ListarChurrascos()
+        {
+            List<ChurrascoDto> listaChurrascos = new List<ChurrascoDto>();
+
+            var realmDB = Realm.GetInstance();
+            listaChurrascos = realmDB.All<ChurrascoDto>().ToList();
+
+            return listaChurrascos;
 
         }
     }

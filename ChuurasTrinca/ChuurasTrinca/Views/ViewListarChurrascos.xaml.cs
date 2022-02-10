@@ -1,4 +1,6 @@
-﻿using Xamarin.Forms;
+﻿using ChuurasTrinca.Models.RealmDto;
+using System.Collections.Generic;
+using Xamarin.Forms;
 
 namespace ChuurasTrinca.Views
 {
@@ -8,5 +10,6 @@ namespace ChuurasTrinca.Views
         {
             InitializeComponent();
         }
+
     }
 }

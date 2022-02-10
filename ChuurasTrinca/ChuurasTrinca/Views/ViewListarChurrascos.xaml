@@ -4,7 +4,9 @@
              xmlns:prism="http://prismlibrary.com"
              xmlns:control="clr-namespace:Xamarin.Forms.MaskedEntry;assembly=Xamarin.Forms.MaskedEntry"
              prism:ViewModelLocator.AutowireViewModel="True"
-             x:Class="ChuurasTrinca.Views.ViewListarChurrascos">
+             x:Class="ChuurasTrinca.Views.ViewListarChurrascos"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="#0e5b9b">
 
     <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
         <ScrollView HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
@@ -16,17 +18,17 @@
                     <RowDefinition Height="250" />
                 </Grid.RowDefinitions>
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="20*" />
-                    <ColumnDefinition Width="60*" />
-                    <ColumnDefinition Width="20*" />
+                    <ColumnDefinition Width="10*" />
+                    <ColumnDefinition Width="80*" />
+                    <ColumnDefinition Width="10*" />
                 </Grid.ColumnDefinitions>
 
                 <Image Source="logo.png" Grid.Row="1" Grid.Column="1" Margin="0,0,0,0"></Image>
-                <Label Text="Churrasco" TextColor="White" FontAttributes="Bold" FontSize="Large" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="1" HorizontalTextAlignment="Center"/>
+                <Label Text="Lista de Churrasco" TextColor="White" FontAttributes="Bold" FontSize="Large" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="1" HorizontalTextAlignment="Center"/>
 
 
-                <Button  CornerRadius="9" BorderWidth="3" BackgroundColor="White" Grid.Row="3" Grid.Column="1" BorderColor="#09406e"></Button>
-                <ListView x:Name="lstChurrascos">
+                <Button  CornerRadius="9" BorderWidth="3" BackgroundColor="White" Grid.Row="3" Grid.Column="1" BorderColor="#09406e" TextColor="Black"></Button>
+                <ListView x:Name="lstChurrascos" ItemsSource="{Binding ListaChurrascos}">
                     <ListView.ItemTemplate>
                         <DataTemplate>
                             <ViewCell>
